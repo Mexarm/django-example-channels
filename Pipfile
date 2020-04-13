@@ -1,0 +1,30 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pylint = "*"
+autopep8 = "*"
+flake8 = "*"
+
+[packages]
+channels = "==1.0.3"
+asgiref = "==1.0.0"
+#attrs = "==16.3.0"
+autobahn = "==0.17.1"
+constantly = "==15.1.0"
+daphne = "==1.0.3"
+incremental = "==16.10.1"
+msgpack-python = "==0.4.8"
+redis = "==2.10.5"
+six = "==1.10.0"
+txaio = "==2.6.1"
+Django = "==1.10.5"
+asgi_redis = "==1.0.0"
+Automat = "==0.5.0"
+#Twisted = "==17.1.0"
+#"zope.interface" = "==4.3.3"
+
+[requires]
+python_version = "3.7"
