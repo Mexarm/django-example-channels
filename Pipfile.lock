@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "e4c64fb1f42b4ed66cb9344adc29b95fc88c873fda36a3fb06e5051802f9cfe1"
+            "sha256": "329d704318d901831bd40a50577e0939910d20ac28320a8ee3b16d1fc63259ff"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -81,11 +81,11 @@
         },
         "django": {
             "hashes": [
-                "sha256:0db89374b691b9c8b057632a6cd64b18d08db2f4d63b4d4af6024267ab965f8b",
-                "sha256:4541a60834f28f308ee7b6e96400feca905fb0de473eb9dad6847e98a36d86d4"
+                "sha256:a3b01cdff845a43830d7ccacff55e0b8ff08305a4cbf894517a686e53ba3ad2d",
+                "sha256:b33ce35f47f745fea6b5aa3cf3f4241069803a3712d423ac748bd673a39741eb"
             ],
             "index": "pypi",
-            "version": "==1.10.5"
+            "version": "==1.11.28"
         },
         "hyperlink": {
             "hashes": [
@@ -132,6 +132,13 @@
                 "sha256:7ead136e03655af85069b6f47b23eb7c3e5c221aa9f022a4fbb499f5b7308f29"
             ],
             "version": "==2.0.2"
+        },
+        "pytz": {
+            "hashes": [
+                "sha256:1c557d7d0e871de1f5ccd5833f60fb2550652da6be2693c1e02300743d21500d",
+                "sha256:b02c06db6cf09c12dd25137e563b31700d3b80fcc4ad23abb7a315f2789819be"
+            ],
+            "version": "==2019.3"
         },
         "redis": {
             "hashes": [
@@ -245,14 +252,6 @@
             ],
             "index": "pypi",
             "version": "==1.5.1"
-        },
-        "colorama": {
-            "hashes": [
-                "sha256:7d73d2a99753107a36ac6b455ee49046802e59d9d076ef8e47b61499fa29afff",
-                "sha256:e96da0d330793e2cb9485e9ddfd918d456036c7149416295932478192f4436a1"
-            ],
-            "markers": "sys_platform == 'win32'",
-            "version": "==0.4.3"
         },
         "entrypoints": {
             "hashes": [
